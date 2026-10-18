@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Claude Code session files
+.claude/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Secrets
+.env
+.env.*
+!.env.example

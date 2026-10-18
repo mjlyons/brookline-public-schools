@@ -1,0 +1,12 @@
+{
+  "name": "brookline-public-schools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch:mmd": "node scripts/watch-mmd.js",
+    "watch:meeting-notes": "node scripts/watch-mmd.js docs/meeting-notes.mmd"
+  },
+  "devDependencies": {
+    "mermaid": "^11.17.2"
+  }
+}
